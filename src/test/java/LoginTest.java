@@ -17,7 +17,7 @@ public class LoginTest {
 public void loginTest() {
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.saucedemo.com/");
-    driver.findElement(By.id("user-name")).sendKeys("standart_user");
+    driver.findElement(By.id("user-name")).sendKeys("standard_user");
     driver.findElement(By.id("password")).sendKeys("123456789");
     driver.findElement(By.id("login-button")).click();
 
@@ -31,7 +31,7 @@ public void loginTest() {
 public void loginTest1() {
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.saucedemo.com/");
-    driver.findElement(By.id("user-name")).sendKeys("standart_user");
+    driver.findElement(By.id("user-name")).sendKeys("standard_user");
     driver.findElement(By.id("password")).sendKeys("");
     driver.findElement(By.id("login-button")).click();
 
